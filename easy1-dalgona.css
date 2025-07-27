@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -133,3 +134,140 @@ body {
   z-index: 1;
   border-radius: 10px;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.base {
+    background-color: black;
+    border-radius: 30px;
+    padding: 40px;
+  
+}
+
+.yellow-circle1 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 7px;
+    background-color: #d38d2c;
+    position: relative;
+    /*box-shadow: inset -4px -20px 10px #9f5516, inset 15px 20px 10px #f0b35c;*/
+}
+    
+
+.yellow-circle2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #d38d2c;
+    position: relative;
+    box-shadow: 5px 9px 4px #9c5e14, -4px -7px 10px #f0b35c;    
+}
+
+.star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arm {
+  width: 9px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #6b3a1e;
+  position: absolute;
+}
+
+
+.arm1 { 
+    top: -104px;
+    left: -15px;
+    transform: rotate(25deg);
+    box-shadow: 5px 3px 0px #f0b35c; 
+}
+.arm2 { 
+    top: -104px;
+    left: 12px;
+    transform: rotate(-25deg);
+ }
+
+.arm3 {
+    top: -70px;
+    left: 56px;
+    transform: rotate(279deg);
+}
+
+.arm4 {
+    top: -48px;
+    left: 60px;
+    transform: rotate(241deg);
+    box-shadow: -3px -4px 1px #f0b35c;
+}
+
+.arm5 { 
+    top: -4px;
+    left: 43px;
+    transform: rotate(337deg); 
+    box-shadow: 1px 6px 3px #f0b35c;
+}
+
+.arm6 { 
+    top: 14px;
+    left: 26px;
+    transform: rotate(292deg); 
+    z-index: 2;
+}
+
+.arm7 { 
+    top: 14px;
+    left: -33px;
+    transform: rotate(247deg); 
+    z-index: 1;
+     box-shadow: -4px 2px 4px #f0b35c;
+}
+
+.arm8 { 
+    top: -2px;
+    left: -49px;
+    transform: rotate(207deg);
+    box-shadow: -2px -2px 2px #f0b35c;
+
+}
+
+.arm9 { 
+    top: -47px;
+    left: -62px;
+    transform: rotate(122deg);
+    z-index: 1;
+}
+
+.arm10 { 
+    top: -70px;
+    left: -59px;
+    transform: rotate(261deg);
+    box-shadow: -3px 1px 0px #f0b35c;
+}
+
+.stick {
+  width: 9px;
+  height: 90px;
+  background-color: #6b3a1e;
+  position: absolute;
+  top: 33px;
+  left: -4px;
+  z-index: 1;
+  border-radius: 10px;
+}
+>>>>>>> 0026e383cdf6bb8e68fc937bc57282d23d0aaa00

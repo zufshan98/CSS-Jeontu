@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -120,3 +121,144 @@ body {
   margin-top: 10px;
 }
 
+=======
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.board {
+  width: 300px;
+  height: 200px;
+  background: #9c9d92;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  box-shadow: 5px 5px 0px black;
+}
+
+.wheelchair-icon {
+  position: absolute;
+  top: 39%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  width: 24px;
+  height: 24px;
+  background: #082f5f;
+  border-radius: 50%;
+  position: absolute;
+  top: -52px;
+  left: 50px;
+}
+
+.body {
+  width: 30px;
+  height: 50px;
+  background: #082f5f;
+  position: absolute;
+  top: -28px;
+  left: 48px;
+}
+
+.backrest {
+    width: 14px;
+    height: 38px;
+    background: #082f5f;
+    position: absolute;
+    top: -12px;
+    left: 28px;
+}
+
+.wheel {
+  width: 75px;
+  height: 75px;
+  background: #082f5f;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-wheel {
+  width: 39px;
+  height: 39px;
+  background: #6da8dc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-wheel {
+  width: 15px;
+  height: 15px;
+  background: #082f5f;
+  border-radius: 50%;
+}
+
+.leg-support1 {
+    width: 47px;
+    height: 16px;
+    background: #082f5f;
+    position: absolute;
+    top: 63px;
+    left: 66px;
+    border-bottom-left-radius: 30px;
+}
+.leg-support2 {
+    width: 47px;
+    height: 16px;
+    background: #082f5f;
+    position: absolute;
+    top: 21px;
+    left: 58px;
+    border-top-right-radius: 30px;
+}
+.leg-support3 {
+    width: 16px;
+    height: 47px;
+    background: #082f5f;
+    position: absolute;
+    top: 24px;
+    left: 97px;
+    border-top-right-radius: 30px;
+}
+
+.stand {
+  position: relative;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.leg {
+  width: 5px;
+  height: 50px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+  transform: rotate(20deg);
+}
+
+.right {
+  right: 0;
+  transform: rotate(-20deg);
+}
+>>>>>>> 0026e383cdf6bb8e68fc937bc57282d23d0aaa00
