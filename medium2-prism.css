@@ -28,7 +28,7 @@ body {
 
 .square.top {
      background-color: #1eaf90;
-    left: 20%;
+    left: 30%;
     bottom: 134px;
     transform: rotate(41deg) skewX(-29deg);
     opacity: 0.9;
@@ -37,13 +37,13 @@ body {
 .square.left {
     background-color: #2496ff;
     transform: skewY(-22deg) rotate(93deg);
-    left: 45px;
+    left: 90px;
     bottom: 120px;
 }
 
 .square.right {
     background-color: #1bc5a3;
     transform: skewY(35deg) rotate(2deg);
-    right: 156px;
+    right: 108px;
     bottom: 82px;
 }
