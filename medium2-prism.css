@@ -1,0 +1,49 @@
+body {
+  background: #610000;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 400px;
+  height: 300px;
+  background: #222;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  opacity: 0.85;
+  transform-origin: bottom center;
+}
+
+.square.top {
+     background-color: #1eaf90;
+    left: 20%;
+    bottom: 134px;
+    transform: rotate(41deg) skewX(-29deg);
+    opacity: 0.9;
+}
+
+.square.left {
+    background-color: #2496ff;
+    transform: skewY(-22deg) rotate(93deg);
+    left: 45px;
+    bottom: 120px;
+}
+
+.square.right {
+    background-color: #1bc5a3;
+    transform: skewY(35deg) rotate(2deg);
+    right: 156px;
+    bottom: 82px;
+}
